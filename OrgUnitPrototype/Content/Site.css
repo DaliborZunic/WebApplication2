@@ -1,0 +1,35 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.org-unit-editor-frame {
+    font-size: 15px;
+    max-width: 700px;
+}
+
+.org-unit-frame {
+    height: 280px;
+}
+
+.list-group-item {
+    padding: 5px 6px;
+}
+
+.btn {
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.form-select {
+    font-size: 15px;
+}
